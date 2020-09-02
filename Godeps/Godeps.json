@@ -1,0 +1,66 @@
+{
+	"ImportPath": "k8s.io/mount-utils",
+	"GoVersion": "unknown",
+	"GodepVersion": "gen-godeps",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/davecgh/go-spew",
+			"Rev": "v1.1.1"
+		},
+		{
+			"ImportPath": "github.com/go-logr/logr",
+			"Rev": "v0.2.0"
+		},
+		{
+			"ImportPath": "github.com/kr/pretty",
+			"Rev": "v0.2.0"
+		},
+		{
+			"ImportPath": "github.com/kr/pty",
+			"Rev": "v1.1.1"
+		},
+		{
+			"ImportPath": "github.com/kr/text",
+			"Rev": "v0.1.0"
+		},
+		{
+			"ImportPath": "github.com/pmezard/go-difflib",
+			"Rev": "v1.0.0"
+		},
+		{
+			"ImportPath": "github.com/spf13/afero",
+			"Rev": "v1.2.2"
+		},
+		{
+			"ImportPath": "github.com/stretchr/objx",
+			"Rev": "v0.1.0"
+		},
+		{
+			"ImportPath": "github.com/stretchr/testify",
+			"Rev": "v1.4.0"
+		},
+		{
+			"ImportPath": "golang.org/x/text",
+			"Rev": "v0.3.0"
+		},
+		{
+			"ImportPath": "gopkg.in/check.v1",
+			"Rev": "41f04d3bba15"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "v2.2.8"
+		},
+		{
+			"ImportPath": "k8s.io/klog/v2",
+			"Rev": "v2.2.0"
+		},
+		{
+			"ImportPath": "k8s.io/utils",
+			"Rev": "d5654de09c73"
+		}
+	]
+}
