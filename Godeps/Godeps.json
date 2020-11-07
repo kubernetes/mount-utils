@@ -60,7 +60,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/utils",
-			"Rev": "d5654de09c73"
+			"Rev": "8146046b121e"
 		}
 	]
 }
