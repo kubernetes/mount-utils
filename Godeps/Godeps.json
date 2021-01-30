@@ -12,7 +12,7 @@
 		},
 		{
 			"ImportPath": "github.com/go-logr/logr",
-			"Rev": "v0.2.0"
+			"Rev": "v0.4.0"
 		},
 		{
 			"ImportPath": "github.com/kr/pretty",
@@ -56,7 +56,7 @@
 		},
 		{
 			"ImportPath": "k8s.io/klog/v2",
-			"Rev": "v2.4.0"
+			"Rev": "v2.5.0"
 		},
 		{
 			"ImportPath": "k8s.io/utils",
