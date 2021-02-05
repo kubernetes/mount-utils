@@ -11,3 +11,5 @@ require (
 	k8s.io/klog/v2 v2.5.0
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 )
+
+replace k8s.io/mount-utils => ../mount-utils
