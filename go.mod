@@ -2,7 +2,7 @@
 
 module k8s.io/mount-utils
 
-go 1.15
+go 1.16
 
 require (
 	github.com/kr/pretty v0.2.0 // indirect
@@ -11,3 +11,5 @@ require (
 	k8s.io/klog/v2 v2.5.0
 	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
 )
+
+replace k8s.io/mount-utils => ../mount-utils
