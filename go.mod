@@ -8,7 +8,7 @@ require (
 	github.com/moby/sys/mountinfo v0.6.0
 	github.com/stretchr/testify v1.7.0
 	k8s.io/klog/v2 v2.70.1
-	k8s.io/utils v0.0.0-20220725171434-9bab9ef40391
+	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed
 )
 
 require (
@@ -21,3 +21,5 @@ require (
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace k8s.io/mount-utils => ../mount-utils
