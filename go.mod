@@ -6,7 +6,7 @@ go 1.22.0
 
 require (
 	github.com/moby/sys/mountinfo v0.6.2
-	github.com/opencontainers/runc v1.1.12
+	github.com/opencontainers/runc v1.1.13
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/sys v0.20.0
 	k8s.io/klog/v2 v2.130.1
@@ -26,3 +26,5 @@ require (
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace k8s.io/mount-utils => ../mount-utils
