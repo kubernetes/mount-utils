@@ -7,8 +7,8 @@ go 1.23.0
 godebug default=go1.23
 
 require (
-	github.com/moby/sys/mountinfo v0.7.1
-	github.com/opencontainers/runc v1.1.14
+	github.com/moby/sys/mountinfo v0.7.2
+	github.com/opencontainers/runc v1.1.15
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56
 	golang.org/x/sys v0.23.0
@@ -29,3 +29,5 @@ require (
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace k8s.io/mount-utils => ../mount-utils
